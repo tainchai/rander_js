@@ -5,7 +5,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
   res.statusCode = 200; // กำหนดสถานะของการตอบกลับ
   res.setHeader('Content-Type', 'text/plain'); // กำหนดประเภทเนื้อหาที่จะส่ง
-  res.end('Hello, Node.js!'); // ส่งข้อความกลับไป
+  res.end('Hello, Node.js! donnnnnn'); // ส่งข้อความกลับไป
 });
 
 // กำหนดพอร์ตและเริ่มเซิร์ฟเวอร์
